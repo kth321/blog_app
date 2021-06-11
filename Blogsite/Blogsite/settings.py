@@ -25,7 +25,7 @@ SECRET_KEY = '&8jz=k(857!s)g-rs20$!h4q7ubcqfmm^$h&zgz0jv^m8j2t=8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blog-app-owraa.run.goorm.io']
 
 
 # Application definition
