@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Page Title{% endblock title %}</title>
+        {% load static %}
+        <link rel="stylesheet" href="static/main_style.css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <ul class="nav-container">
+                <li class="nav-item"><a href="#" class="nav-item-a">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-a">Posts</a></li>
+                <li class="nav-item"><a href="#" class="nav-item-a">Games</a></li>
+            </ul>
+        </div>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>
