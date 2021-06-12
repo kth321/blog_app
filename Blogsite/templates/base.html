@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="static/main_style.css">
     </head>
     <body>
+        <div id="blog-head-div">
+            <h1 id="blog-head">
+                KOOS CO
+            </h1>    
+        </div>
         <div class="sidebar">
             <ul class="nav-container">
                 <li class="nav-item"><a href="#" class="nav-item-a">About</a></li>
@@ -14,7 +19,9 @@
                 <li class="nav-item"><a href="#" class="nav-item-a">Games</a></li>
             </ul>
         </div>
-        {% block content %}
-        {% endblock content %}
+        <div class="main-content">
+            {% block content %}
+            {% endblock content %}    
+        </div>
     </body>
 </html>

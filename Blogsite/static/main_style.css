@@ -1,3 +1,35 @@
-h1{
-    color: red;
+body{
+    margin: 0px;
+}
+#blog-head-div{
+    background-color: #c4a3e8;
+    padding: 1px;
+}
+#blog-head{
+    text-align: left;
+    margin-left: 50px;
+}
+.nav-container{
+    list-style-type:none;
+    border: solid 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    margin: 0px;
+    padding: 0x;
+    background-color: #675cbf; 
+}
+.nav-item{
+    padding: 8px;
+    cursor: pointer;
+}
+.nav-item-a{
+    text-decoration: none;
+    text-align: center;
+    color: #e6dcff89;
+}
+
+.main-content{
+    margin-left: 20px;
 }
