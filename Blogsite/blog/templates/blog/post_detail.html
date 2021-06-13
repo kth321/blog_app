@@ -1,0 +1,14 @@
+{% extends 'blog/blog_base.html' %}
+
+{% block content %}
+    <h1>
+        {{object.title}}
+    </h1>
+    <h4>
+        작성자: {{object.author}}<br>
+        published_date = {{object.published_date}}
+    </h4>
+    <p>
+        {{object.body}}
+    </p>
+{% endblock content %}

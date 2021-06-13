@@ -3,9 +3,12 @@
 {% block title %}Post List{% endblock title %}
 {% block content %}
     {% if object_list %}
+        <h1>
+            Post List
+        </h1>
         <ul>
             {% for post in object_list %}
-                <li><a href="#">{{ post.title }}</a></li>
+                <li><a href="{% url 'blog:post_detail' post.id %}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
     {% else %}
