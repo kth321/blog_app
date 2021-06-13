@@ -7,19 +7,22 @@
         <link rel="stylesheet" href="/static/css/main_style.css">
     </head>
     <body>
-        <div id="blog-head-div">
-            <a href="/" id="blog-head-a"><h1 id="blog-head">KOOS CO</h1></a>
-        </div>
-        <div class="sidebar">
-            <ul class="nav-container">
-                <li class="nav-item"><a href="#" class="nav-item-a">About</a></li>
-                <li class="nav-item"><a href="{% url 'blog:post_list' %}" class="nav-item-a">Posts</a></li>
-                <li class="nav-item"><a href="#" class="nav-item-a">Games</a></li>
-            </ul>
-        </div>
-        <div class="main-content">
-            {% block content %}
-            {% endblock content %}    
+        <div class="wall-paper">
+            <div id="blog-head-div">
+                <a href="/" id="blog-head-a"><h1 id="blog-head">KOOS CO</h1></a>
+            </div>
+            <div class="sidebar">
+                <ul class="nav-container">
+                    <li class="nav-item"><a href="#" class="nav-item-a">About</a></li>
+                    <li class="nav-item"><a href="{% url 'blog:post_list' %}" class="nav-item-a">Posts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-item-a">Games</a></li>
+                    <li class="nav-item"><a href="/admin" class="nav-item-a" target="_blank">Admin</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                {% block content %}
+                {% endblock content %}    
+            </div>
         </div>
     </body>
 </html>

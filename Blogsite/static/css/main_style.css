@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 #blog-head-div{
-    background-color: black;
+    background-color: rgb(0,0,0,0.8);
     padding: 1px;
 }
 #blog-head{
@@ -13,6 +13,18 @@ body{
 #blog-head-a{
     text-decoration: none;
 }
+.wall-paper{
+    background: url(../image/wall_paper.jpg);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+
+}
 .nav-container{
     list-style-type:none;
     border: solid 1px;
@@ -22,7 +34,7 @@ body{
     top: 0px;
     margin: 0px;
     padding: 0x;
-    background-color: rgb(0, 0, 0, 0.35); 
+    background-color: rgb(0, 0, 0, 0.5); 
 }
 .nav-item{
     padding: 8px;
@@ -33,7 +45,13 @@ body{
     text-align: center;
     color: white;
 }
-
 .main-content{
     margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 95%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    position: fixed;
 }
